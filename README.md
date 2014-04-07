@@ -6,7 +6,7 @@
 
 ### Package Control
 
-1. Make sure you already have [Package Control]http://wbond.net/sublime_packages/package_control/ installed
+1. Make sure you already have [Package Control](http://wbond.net/sublime_packages/package_control/) installed
 2. Choose *Install Package* from the Command Palette (`Ctrl+Shift+P` on Windows/Linux, `⇧⌘P` on OS X)
 3. Select *BridleNSIS* and press `Enter`
 
