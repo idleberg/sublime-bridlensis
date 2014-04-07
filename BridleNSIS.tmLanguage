@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>bridle-nsis</string>
+		<string>nsi</string>
+		<string>nsh</string>
+	</array>
+
+	<key>name</key>
+	<string>BridleNSIS</string>
+	<key>patterns</key>
+	<array>
+
+		<!-- https://github.com/SublimeText/NSIS -->
+		<dict>
+			<key>include</key>
+			<string>source.nsis</string>
+		</dict>
+		
+		<!-- https://github.com/henrikor2/bridlensis -->
+		<dict>
+			<key>match</key>
+			<string>(\b|^\s*)(?i)(And|Break|Continue|Do|Else|ElseIf|EndIf|If|Loop|If|Not|Or|Until|While)\b</string>
+			<key>name</key>
+			<string>keyword.command.nsis</string>
+		</dict>
+
+		<dict>
+			<key>match</key>
+			<string>(\b|^\s*)(?i)(ABORT|ABORTRETRYIGNORE|CANCEL|DEFBUTTON1|DEFBUTTON2|DEFBUTTON3|DEFBUTTON4|ICONEXCLAMATION|ICONINFORMATION|ICONQUESTION|ICONSTOP|IGNORE|NO|OK|OKCANCEL|RETRY|RETRYCANCEL|RIGHT|RTLREADING|SETFOREGROUND|TOPMOST|USERICON|YES|YESNO|YESNOCANCEL)\b</string>
+			<key>name</key>
+			<string>support.constant.nsis</string>
+		</dict>
+		
+		<dict>
+			<key>match</key>
+			<string>\w+\(.*?\)</string>
+			<key>name</key>
+			<string>support.function.nsis</string>
+		</dict>
+
+		<dict>
+			<key>match</key>
+			<string>(\-|\+|\*|/|%)</string>
+			<key>name</key>
+			<string>keyword.operator.arithmetic.nsis</string>
+		</dict>
+
+		<dict>
+			<key>match</key>
+			<string>(===|==|!==|!=|&lt;=|&gt;=|&lt;&gt;|&lt;|&gt;)</string>
+			<key>name</key>
+			<string>keyword.operator.comparison.php</string>
+		</dict>
+
+		
+	</array>
+
+	<key>scopeName</key>
+	<string>source.nsis.bridle</string>
+	<key>uuid</key>
+	<string>D3C4E6DA-6B1C-11D9-8CC2-000D93589AF6</string>
+</dict>
+</plist>
