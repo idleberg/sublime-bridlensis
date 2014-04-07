@@ -26,6 +26,10 @@ With [auto_upgrade](http://wbond.net/sublime_packages/package_control/settings/)
 
 For the moment, you have to set the scope of your NSIS source to `source.nsis.bridle` to work. I'm looking into a better way of integration in a future release.
 
+### Completions
+
+Since all of BridleNSIS' commands match their vanilla NSIS equivalents, the completions are prefixed with `f:` (for function). While Sublime Text's fuzzy search doesn't require you to type the prefix, you might get quicker results doing so, expecially for a commands such as `If`, which is available as `!if` (compile-time command), `${If}` (LogicLib.nsh) and now `If` (BridleNSIS).
+
 ## License
 
 The MIT License (MIT)
