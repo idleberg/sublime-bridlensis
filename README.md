@@ -21,7 +21,7 @@ With [auto_upgrade](http://wbond.net/sublime_packages/package_control/settings/)
 
 ### Download Manually
 
-* Download the files using the GitHub .zip download option
+* Download the files using the GitHub [.zip](https://github.com/idleberg/BridleNSIS-Sublime-Text/archive/master.zip) download option
 * Unzip the files to your Sublime Text `Packages/User` directory
 
 ## Usage
