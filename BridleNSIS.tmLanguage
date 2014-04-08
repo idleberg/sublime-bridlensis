@@ -53,7 +53,7 @@
 			<key>match</key>
 			<string>(===|==|!==|!=|&lt;=|&gt;=|&lt;&gt;|&lt;|&gt;)</string>
 			<key>name</key>
-			<string>keyword.operator.comparison.php</string>
+			<string>keyword.operator.comparison.nsis</string>
 		</dict>
 
 	</array>
