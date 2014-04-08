@@ -10,7 +10,7 @@
                 { "trigger": "f:CallInstDLL()", "contents": "CallInstDLL(\"${1:dll_file}\", \"${2:function_name}\"" },
                 { "trigger": "f:ClearErrors()", "contents": "ClearErrors()" },
                 { "trigger": "f:CreateDirectory()", "contents": "CreateDirectory(\"${1:path_to_create}\")" },
-                { "trigger": "f:CreateFont()", "contents": "CreateFont(\"${1:face_name}\",${2: \"${3:height}\"${4:, \"${5:weight}\"${6:, ${7:italic}${8:, ${9:underline}${10:, ${11:strike}}}}}})" },
+                { "trigger": "f:CreateFont()", "contents": "CreateFont(\"${1:face_name}\",${2: \"${3:height}\"${4:, \"${5:weight}\"${6:, ${7:/ITALIC}${8:, ${9:/UNDERLINE}${10:, ${11:/STRIKE}}}}}})" },
                 { "trigger": "f:CreateShortCut()", "contents": "CreateShortCut(\"${1:link}.lnk\", \"${2:target_file}\"${3:, \"${4:parameters}\"${5:, \"${6:icon_file}\"${7:, ${8:icon_index_number}${9:, ${10:start_options}${11:, ${12:keyboard_shortcut}${13:, \"${14:description}\"}}}}}}})" },
                 { "trigger": "f:DeleteINISec()", "contents": "DeleteINISec(\"${1:ini_filename}\", \"${2:section_name}\")" },
                 { "trigger": "f:DeleteINIStr()", "contents": "DeleteINIStr(\"${1:ini_filename}\", \"${2:section_name}\", \"${3:str_name}\")" },
