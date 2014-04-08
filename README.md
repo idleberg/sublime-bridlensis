@@ -2,6 +2,8 @@
 
 [BridleNSIS](https://github.com/henrikor2/bridlensis) syntax definitions and completions for [Sublime Text](http://www.sublimetext.com/) (the former work for [TextMate](http://macromates.com/) as well!)
 
+BridleNSIS is a language extension for [NSIS](http://nsis.sourceforge.net) designed to make things easier to express and rein in verbosity of NSIS at places.
+
 ## Installation
 
 ### Package Control
