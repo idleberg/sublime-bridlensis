@@ -1,5 +1,5 @@
-UPDATE NOTICE
-=============
+v0.2.0
+======
 
 The prefix for BridleNSIS functions has changed from 'f:' to 'b:'
 
