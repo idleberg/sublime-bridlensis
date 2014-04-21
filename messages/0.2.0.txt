@@ -1,0 +1,6 @@
+UPDATE NOTICE
+=============
+
+The prefix for BridleNSIS functions has changed from 'f:' to 'b:'
+
+Apart from that, there are several new commands available. For details please refer to the BridleNSIS release notes at https://github.com/henrikor2/bridlensis/blob/v0.2.0/release_notes.md
