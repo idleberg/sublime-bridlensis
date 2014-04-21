@@ -32,7 +32,7 @@ For the moment, you have to set the scope of your NSIS source to `source.nsis.br
 
 ### Completions
 
-Since all BridleNSIS commands match their [Vanilla](https://en.wikipedia.org/wiki/Vanilla_software) NSIS equivalents, the completions are prefixed with `b:`. While Sublime Text's fuzzy search doesn't require you to type the prefix, you might get quicker results doing so, especially for commands such as `If`, which is also available as `!if` as [compile-time command](https://github.com/NSIS-Dev/Documentation/blob/master/Reference/!if.markdown) or `${If}` in [LogicLib.nsh](https://github.com/NSIS-Dev/Documentation/blob/master/Includes/LogicLib/If.markdown).
+Since all BridleNSIS commands match their [Vanilla](https://en.wikipedia.org/wiki/Vanilla_software) NSIS equivalents, the completions are prefixed with `b:`. While Sublime Text's fuzzy search doesn't require you to type the prefix, you might get quicker results doing so, especially for commands such as `If`, which could be confused with the [compile-time command](https://github.com/NSIS-Dev/Documentation/blob/master/Reference/!if.markdown) `!if` or the [LogicLib](https://github.com/NSIS-Dev/Documentation/blob/master/Includes/LogicLib/If.markdown) macro `${If}`.
 
 ## License
 
