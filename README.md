@@ -28,7 +28,7 @@ With [auto_upgrade](http://wbond.net/sublime_packages/package_control/settings/)
 
 ## Usage
 
-For the moment, you have to set the scope of your NSIS source to `source.nsis.bridle` to work. I'm looking into a better way of integration in a future release.
+For the moment, you have to set the scope of your NSIS source to `source.nsis.bridle` (“BridleNSIS”) to work. Alternatively, you can use the `.bridle-nsis` file extension for automatic detection.
 
 ### Completions
 
