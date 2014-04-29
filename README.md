@@ -18,13 +18,13 @@ With [auto_upgrade](http://wbond.net/sublime_packages/package_control/settings/)
 
 ### GitHub
 
-1. Change to your Sublime Text `Packages/User` directory
+1. Change to your Sublime Text `Packages` directory
 2. Clone repository `git clone https://github.com/idleberg/BridleNSIS-Sublime-Text.git`
 
 ### Download Manually
 
 * Download the files using the GitHub [.zip](https://github.com/idleberg/BridleNSIS-Sublime-Text/archive/master.zip) download option
-* Unzip the files to your Sublime Text `Packages/User` directory
+* Unzip the files to your Sublime Text `Packages` directory
 
 ## Usage
 
