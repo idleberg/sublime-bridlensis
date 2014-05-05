@@ -1,3 +1,5 @@
+[![Build Status](https://secure.travis-ci.org/idleberg/BridleNSIS-Sublime-Text.png)](http://travis-ci.org/idleberg/BridleNSIS-Sublime-Text)
+
 # BridleNSIS for SublimeText
 
 [BridleNSIS](https://github.com/henrikor2/bridlensis) syntax definitions and completions for [Sublime Text](http://www.sublimetext.com/) (the former work for [TextMate](http://macromates.com/) as well!)
