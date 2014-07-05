@@ -145,6 +145,7 @@
                 { "trigger": "b:StrCpy()", "contents": "StrCpy(${1:str}${2:, ${3:maxlen}${4:, ${5:start_offset}}})" },
                 { "trigger": "b:StrLen()", "contents": "StrLen(${1:str})" },
                 { "trigger": "b:UnRegDLL()", "contents": "UnRegDLL(\"${1:dllfile}\")" },
+                { "trigger": "b:Var", "contents": "Var ${1:user_vars}" },
                 { "trigger": "b:WordFind()", "contents": "WordFind(\"${1:string}\", \"${2:options}\", \"${3:delimiter1}\"${4:, \"${5:delimiter2}\"}${6:, \"${7:center}\"}})" },
                 { "trigger": "b:WordFindS()", "contents": "WordFindS(\"${1:string}\", \"${2:options}\", \"${3:delimiter1}\"${4:, \"${5:delimiter2}\"}${6:, \"${7:center}\"}})" },
                 { "trigger": "b:WordReplace()", "contents": "WordReplace(\"${1:string}\", \"${2:word1}\", \"${3:word2}\", \"${4:options}\")" },
