@@ -1,7 +1,7 @@
 # BridleNSIS for SublimeText
 
 [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
-[![GitHub tag](https://img.shields.io/github/tag/idleberg/BridleNSIS-Sublime-Text.svg?style=flat-square)](https://github.com/idleberg/BridleNSIS-Sublime-Text/tags)
+[![GitHub release](https://img.shields.io/github/release/idleberg/BridleNSIS-Sublime-Text.svg?style=flat-square)](https://github.com/idleberg/BridleNSIS-Sublime-Text/releases)
 [![Travis](https://img.shields.io/travis/idleberg/BridleNSIS-Sublime-Text.svg?style=flat-square)](https://travis-ci.org/idleberg/BridleNSIS-Sublime-Text)
 
 [BridleNSIS](https://github.com/henrikor2/bridlensis) syntax definitions and completions for [Sublime Text](http://www.sublimetext.com/) (the former work for [TextMate](http://macromates.com/) as well!)
