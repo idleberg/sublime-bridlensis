@@ -37,9 +37,9 @@
 		
 		<dict>
 			<key>match</key>
-			<string>\w+\(.*?\)</string>
+			<string>[\\A-Za-z_.][\\A-Za-z_0-9]*(?=\s*\()</string>
 			<key>name</key>
-			<string>support.function.nsis</string>
+			<string>meta.function.nsis</string>
 		</dict>
 
 		<dict>
