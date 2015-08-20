@@ -42,7 +42,7 @@ Since all BridleNSIS commands match their [Vanilla](https://en.wikipedia.org/wik
 
 ### Build System
 
-On Windows, you can build your script using the default <kbd>Super</kbd><kbd>b</kbd>. If you have any build systems for vanilla NSIS installed, make sure to switch to BridleNSIS before building!
+On Windows, you can build your script using the default <kbd>Super</kbd><kbd>b</kbd>. If you have any build systems for vanilla NSIS installed, you might have to switch to BridleNSIS before building.
 
 ## License
 
