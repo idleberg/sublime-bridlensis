@@ -10,6 +10,8 @@ BridleNSIS is a language extension for [NSIS](http://nsis.sourceforge.net) desig
 
 ![Screenshot](https://raw.github.com/idleberg/BridleNSIS-Sublime-Text/master/screenshot.png)
 
+*Screenshot of BridleNSIS in Sublime Text with [Hopscotch](https://github.com/idleberg/Hopscotch) color scheme*
+
 ## Installation
 
 ### Package Control
@@ -23,7 +25,7 @@ With [auto_upgrade](http://wbond.net/sublime_packages/package_control/settings/)
 ### GitHub
 
 1. Change to your Sublime Text `Packages` directory
-2. Clone repository `git clone https://github.com/idleberg/BridleNSIS-Sublime-Text.git`
+2. Clone repository `git clone https://github.com/idleberg/BridleNSIS-Sublime-Text.git BridleNSIS`
 
 ### Download Manually
 
@@ -37,6 +39,10 @@ For the moment, you have to set the scope of your NSIS source to `source.nsis.br
 ### Completions
 
 Since all BridleNSIS commands match their [Vanilla](https://en.wikipedia.org/wiki/Vanilla_software) NSIS equivalents, the completions are prefixed with `b:`. While Sublime Text's fuzzy search doesn't require you to type the prefix, you might get quicker results doing so, especially for commands such as `If`, which could be confused with the [compile-time command](https://github.com/NSIS-Dev/Documentation/blob/master/Reference/!if.markdown) `!if` or the [LogicLib](https://github.com/NSIS-Dev/Documentation/blob/master/Includes/LogicLib/If.markdown) macro `${If}`.
+
+### Build System
+
+On Windows, you can build your script using the default <kbd>Super</kbd><kbd>b</kbd>. If you have any build systems for vanilla NSIS installed, make sure to switch to BridleNSIS before building!
 
 ## License
 
