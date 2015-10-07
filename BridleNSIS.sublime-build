@@ -1,7 +1,7 @@
 {
   "working_dir": "${project_path:${folder}}",
   "file_regex": ".*rror:? \"(...*?)\" on line ([0-9]*)",
-  "selector" : "source.nsi.bridle",
+  "selector" : "source.nsis.bridle",
   
   "windows":
     {
