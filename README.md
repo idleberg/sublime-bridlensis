@@ -3,6 +3,7 @@
 [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 [![GitHub release](https://img.shields.io/github/release/idleberg/BridleNSIS-Sublime-Text.svg?style=flat-square)](https://github.com/idleberg/BridleNSIS-Sublime-Text/releases)
 [![Travis](https://img.shields.io/travis/idleberg/BridleNSIS-Sublime-Text.svg?style=flat-square)](https://travis-ci.org/idleberg/BridleNSIS-Sublime-Text)
+[![Gitter](https://img.shields.io/badge/chat-Gitter-ff69b4.svg?style=flat-square)](https://gitter.im/NSIS-Dev/SublimeText)
 
 [BridleNSIS](https://github.com/henrikor2/bridlensis) syntax definitions and completions for [Sublime Text](http://www.sublimetext.com/) (the former work for [TextMate](http://macromates.com/) as well!)
 
