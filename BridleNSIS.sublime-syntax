@@ -1,0 +1,21 @@
+%YAML 1.2
+---
+# http://www.sublimetext.com/docs/3/syntax.html
+name: BridleNSIS
+file_extensions:
+  - nsi
+  - nsh
+scope: source.nsis.bridle
+contexts:
+  main:
+    - include: scope:source.nsis
+    - match: (\b|^\s*)(?i)(Abort|And|Break|BringToFront|Call|CallInstDLL|ClearErrors|Continue|CreateDirectory|CreateFont|CreateShortCut|Delete|DeleteINISec|DeleteINIStr|DeleteRegValue|DetailPrint|Do|Else|ElseIf|EnableWindow|EndIf|EnumRegKey|EnumRegValue|Exec|ExecShell|ExecWait|ExpandEnvStrings|FileClose|FileCopy|FileOpen|FileRead|FileReadByte|FileReadUTF16LE|FileReadWord|FileSeek|FileWrite|FileWriteByte|FileWriteUTF16LE|FileWriteWord|FindClose|FindNext|FindWindow|FlushINI|Function|GetCurInstType|GetCurrentAddress|GetDlgItem|GetErrorLevel|GetInstDirError|GetLabelAddress|GetTempFileName|Goto|HideWindow|If|If|InitPluginsDir|InstTypeGetText|InstTypeSetText|IntFmt|IntOp|LangString|LicenseLangString|LoadLanguageFile|LockWindow|LogSet|LogText|Loop|MsgBox|Not|Or|Quit|ReadEnvStr|ReadINIStr|ReadRegDWORD|ReadRegStr|Reboot|RegDLL|ReserveFile|SearchPath|SectionGetFlags|SectionGetInstTypes|SectionGetSize|SectionSetFlags|SectionSetInstTypes|SectionSetSize|SectionSetText|SendMessage|SetAutoClose|SetCtlColors|SetCurInstType|SetDetailsPrint|SetDetailsView|SetErrorLevel|SetErrors|SetFileAttributes|SetOutPath|SetRebootFlag|SetRegView|SetShellVarContext|SetSilent|ShowWindow|Sleep|StrCpy|StrLen|UnRegDLL|Until|While|WriteINIStr|WriteRegBin|WriteRegDWORD|WriteRegExpandStr|WriteRegStr|WriteUninstaller)\b
+      scope: keyword.command.nsis
+    - match: (\b|^\s*)(?i)(ABORT|ABORTRETRYIGNORE|CANCEL|DEFBUTTON1|DEFBUTTON2|DEFBUTTON3|DEFBUTTON4|ICONEXCLAMATION|ICONINFORMATION|ICONQUESTION|ICONSTOP|IGNORE|NO|OK|OKCANCEL|RETRY|RETRYCANCEL|RIGHT|RTLREADING|SETFOREGROUND|TOPMOST|USERICON|YES|YESNO|YESNOCANCEL)\b
+      scope: support.constant.nsis
+    - match: '[\\A-Za-z_.][\\A-Za-z_0-9]*(?=\s*\()'
+      scope: meta.function.nsis
+    - match: (\-|\+|\*|/|%)
+      scope: keyword.operator.arithmetic.nsis
+    - match: (===|==|!==|!=|<=|>=|<>|<|>)
+      scope: keyword.operator.comparison.nsis
