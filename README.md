@@ -1,6 +1,7 @@
 # BridleNSIS for SublimeText
 
 [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+[![Package Control](https://packagecontrol.herokuapp.com/downloads/BridleNSIS.svg?style=flat-square)](https://packagecontrol.io/packages/BridleNSIS)
 [![GitHub release](https://img.shields.io/github/release/idleberg/sublime-bridlensis.svg?style=flat-square)](https://github.com/idleberg/sublime-bridlensis/releases)
 [![Travis](https://img.shields.io/travis/idleberg/sublime-bridlensis.svg?style=flat-square)](https://travis-ci.org/idleberg/sublime-bridlensis)
 [![Gitter](https://img.shields.io/badge/chat-Gitter-ff69b4.svg?style=flat-square)](https://gitter.im/NSIS-Dev/SublimeText)
