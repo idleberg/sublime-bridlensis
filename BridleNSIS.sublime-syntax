@@ -3,8 +3,9 @@
 # http://www.sublimetext.com/docs/3/syntax.html
 name: BridleNSIS
 file_extensions:
-  - nsi
-  - nsh
+  - bridle-nsi
+  - bridle-nsis
+  - bridle-nsh
 scope: source.nsis.bridle
 contexts:
   main:

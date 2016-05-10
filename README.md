@@ -36,7 +36,7 @@ With [auto_upgrade](http://wbond.net/sublime_packages/package_control/settings/)
 
 ## Usage
 
-For the moment, you have to set the scope of your NSIS source to `source.nsis.bridle` (“BridleNSIS”) manually.
+To avoid interference with vanilla NSIS, consider using the file-extensions `.bridle-nsis` and `.bridle-nsh`. Alternatively, you can set the syntax to *“BridleNSIS”* (`source.nsis.bridle`) manually.
 
 ### Completions
 
