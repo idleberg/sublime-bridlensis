@@ -4,7 +4,7 @@
 [![Package Control](https://packagecontrol.herokuapp.com/downloads/BridleNSIS.svg?style=flat-square)](https://packagecontrol.io/packages/BridleNSIS)
 [![GitHub release](https://img.shields.io/github/release/idleberg/sublime-bridlensis.svg?style=flat-square)](https://github.com/idleberg/sublime-bridlensis/releases)
 [![Travis](https://img.shields.io/travis/idleberg/sublime-bridlensis.svg?style=flat-square)](https://travis-ci.org/idleberg/sublime-bridlensis)
-[![Gitter](https://img.shields.io/badge/chat-Gitter-ff69b4.svg?style=flat-square)](https://gitter.im/NSIS-Dev/SublimeText)
+[![Gitter](https://img.shields.io/badge/chat-Gitter-ed1965.svg?style=flat-square)](https://gitter.im/NSIS-Dev/SublimeText)
 
 [BridleNSIS](https://github.com/henrikor2/bridlensis) syntax definitions and completions for [Sublime Text](http://www.sublimetext.com/) (the former work for [TextMate](http://macromates.com/) as well!)
 
