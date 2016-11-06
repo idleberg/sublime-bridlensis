@@ -3,6 +3,8 @@
 # http://www.sublimetext.com/docs/3/syntax.html
 name: BridleNSIS
 file_extensions:
+  - bnsi
+  - bnsh
   - bridle-nsi
   - bridle-nsis
   - bridle-nsh
