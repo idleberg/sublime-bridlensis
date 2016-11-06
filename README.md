@@ -24,7 +24,7 @@ BridleNSIS is a language extension for [NSIS](http://nsis.sourceforge.net) desig
 
 With [auto_upgrade](http://wbond.net/sublime_packages/package_control/settings/) enabled, Package Control will keep all installed packages up-to-date!
 
-### GitHub
+### Using Git
 
 1. Change to your Sublime Text `Packages` directory
 2. Clone repository `git clone https://github.com/idleberg/sublime-bridlensis.git BridleNSIS`
