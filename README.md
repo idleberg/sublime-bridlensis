@@ -10,6 +10,8 @@
 
 BridleNSIS is a language extension for [NSIS](http://nsis.sourceforge.net) designed to make things easier to express and rein in verbosity of NSIS at places.
 
+**Note:** This package is compatible with Sublime Text 3 ([Build 3103](http://www.sublimetext.com/blog/articles/sublime-text-3-build-3103) or higher). Click [here](https://github.com/idleberg/sublime-bridlensis/tree/st2-master) for a Sublime Text 2 version of this package.
+
 ![Screenshot](https://raw.github.com/idleberg/sublime-bridlensis/master/screenshot.png)
 
 *Screenshot of BridleNSIS in Sublime Text with [Hopscotch](https://github.com/idleberg/Hopscotch) color scheme*
