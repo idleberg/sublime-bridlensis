@@ -1,7 +1,0 @@
-v0.4.0
-======
-
-You can now compile BridleNSIS scripts right within Sublime Text. If you have
-any build systems for vanilla NSIS installed, you might have to switch to
-BridleNSIS before building. Also make sure Java is installed and added to your
-PATH environment variable.
