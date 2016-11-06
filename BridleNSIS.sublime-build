@@ -1,10 +1,11 @@
 {
+  "cmd": [ "echo", "Error: This build system currently works on Windows only" ],
   "working_dir": "${project_path:${folder}}",
   "file_regex": ".*rror:? \"(...*?)\" on line ([0-9]*)",
   "selector" : "source.nsis.bridle",
   
   "windows":
     {
-      "cmd": ["$packages\\BridleNSIS\\build.cmd", "$file"]
+      "cmd": ["$packages\\BridleNSIS\\scripts\\build.cmd", "$file"]
     }
 }
