@@ -8,10 +8,6 @@
 
 BridleNSIS is a language extension for [NSIS](http://nsis.sourceforge.net) designed to make things easier to express and rein in verbosity of NSIS at places.
 
-![Screenshot](https://raw.github.com/idleberg/sublime-bridlensis/master/screenshot.png)
-
-*Screenshot of BridleNSIS in Sublime Text with [Hopscotch](https://github.com/idleberg/Hopscotch) color scheme*
-
 ## Installation
 
 ### Package Control
