@@ -47,7 +47,3 @@ On Windows, you can build your script using the default <kbd>Super</kbd><kbd>b</
 ## License
 
 This work is licensed under the [The MIT License](LICENSE).
-
-## Donate
-
-You are welcome support this project using [Flattr](https://flattr.com/submit/auto?user_id=idleberg&url=https://github.com/idleberg/sublime-bridlensis) or Bitcoin `17CXJuPsmhuTzFV2k4RKYwpEHVjskJktRd`
